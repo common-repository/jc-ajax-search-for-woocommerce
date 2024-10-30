@@ -1,0 +1,48 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.wpjc-search-form{width: 100%;display: flex;position: relative;}
+.wpjc-search-form form{display: flex; border: solid 1px #949494;margin: 0!important;width: 100%;overflow: hidden;}
+.wpjc-search-form form input{height: 40px; font-size: 14px; color: #000; display: block; width: 100%; border: 0; background: #fff; border-radius: 0;margin: 0!important;padding: 10px;}
+.wpjc-search-form form span{background: #d3d3d3; height: 40px; width: 50px; display: flex; align-items: center; justify-content: center;cursor: pointer;}
+.wpjc-search-form form span svg{height: 20px;width: 20px;}
+.wpjc-search-form .loader {border: 8px solid #f3f3f3; border-radius: 50%; border-top: 8px solid #3498db; width: 20px; height: 20px; -webkit-animation: spin 2s linear infinite; /* Safari */ animation: spin 2s linear infinite; }
+.wpjc-search-form .jcwp-add_to_cart .loader {border: 4px solid #f3f3f3; border-radius: 50%; border-top: 4px solid #3498db; width: 15px; height: 15px; -webkit-animation: spin 2s linear infinite; animation: spin 2s linear infinite; position: absolute; right: 0; top: 0; bottom: 0; margin: auto;}
+.wpjc-search-form .wpjc-rearch-result {position: absolute; left: 0; top: 100%; right: 0; border-radius: 3px; box-shadow: 0 2px 35px rgb(0 0 0 / 10%); font-size: 1.3rem; font-weight: 400; letter-spacing: 0; background: #fff; z-index: 1058;min-width: 350px;}
+.wpjc-search-form .wpjc-rearch-result .wpjc-content{    max-height: 316px; margin: 5px; overflow-y: scroll; padding: 4px;overflow-x: hidden;}
+.wpjc-search-form .wpjc-rearch-result .wpjc-content ul{margin: 0;padding: 0;position: relative;}
+.wpjc-search-form .wpjc-rearch-result .wpjc-content ul li{margin: 0; list-style: none; display: flex; border: solid 1px #d3d3d3; margin-bottom: 2px; background: #fff; font-size: 14px; line-height: normal; justify-content: space-between;padding: 0;}
+.wpjc-search-form .wpjc-rearch-result .wpjc-content ul li .image{width: 100px; height: 100px; position: relative; display: block;flex: 0 0 100px;}
+.wpjc-search-form .wpjc-rearch-result .wpjc-content ul li .image img{object-fit: cover;}
+.wpjc-search-form .wpjc-rearch-result .wpjc-content ul li a{text-decoration: none;}
+.wpjc-search-form .wpjc-rearch-result .wpjc-content ul li h2{font-size: 14px; font-weight: bold; margin: 0; padding: 0; line-height: normal;}
+.wpjc-search-form .wpjc-rearch-result .wpjc-content ul li .body-content{padding: 10px;width: calc(100% - 200px);}
+.wpjc-search-form .wpjc-rearch-result .wpjc-content ul li .body-content .price{font-size: 14px; display: flex;}
+.wpjc-search-form .wpjc-rearch-result .wpjc-content ul li .body-content .price del{color: #d3d3d3;margin-right: 5px;}
+.wpjc-search-form .wpjc-rearch-result .wpjc-content ul li .body-content .price ins{}
+.wpjc-search-form .wpjc-rearch-result .wpjc-content ul li .body-content .price > .amount{padding: 0 3px;}
+.wpjc-search-form .wpjc-rearch-result .wpjc-content ul li .btn-content .jcwp-button{min-width: 90px; position: relative; margin: 2px; text-align: center; cursor: pointer; max-width: 100%; padding: 8px 8px; height: auto; line-height: normal; background: #2271b1; color: #fff;font-size: 12px;}
+.wpjc-search-form .wpjc-rearch-result .wpjc-content ul li .btn-content {    min-width: 100px; padding: 5px; max-width: 100px; margin-left: auto; position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center;}
+.wpjc-search-form .wpjc-rearch-result .wpjc-content ul li .btn-content input{height: 40px; font-size: 14px; color: #000;width: 50px;display: inline-block;text-align: center; border: solid 1px #d3d3d3;}
+.wpjc-search-form .wpjc-rearch-result .wpjc-content ul li .btn-content input::-webkit-outer-spin-button,
+.wpjc-search-form .wpjc-rearch-result .wpjc-content ul li .btn-content input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+.wpjc-search-form .wpjc-rearch-result .wpjc-content ul li .btn-content input[type=number] { -moz-appearance: textfield; }
+.wpjc-search-form .wpjc-rearch-result .wpjc-content ul li .btn-content .spinner-button {display: inline-block; width: 20px; line-height: 40px; text-align: center; background: #d3d3d3; cursor: pointer; height: 40px; clear: none; vertical-align: top; font-size: 16px; font-weight: bold;}
+.wpjc-search-form .wpjc-rearch-result .wpjc-content::-webkit-scrollbar{width:6px;background-color: #fff;}
+.wpjc-search-form .wpjc-rearch-result .wpjc-content::-webkit-scrollbar-thumb{background:rgba(194,194,194,0.3);border-radius:6px;margin-right: 5px;}
+.wpjc-search-form .wpjc-rearch-result .wpjc-content::-webkit-scrollbar-track {background-color: #fff; }
+.wpjc-search-form .wpjc-rearch-result .wpjc-content::-webkit-scrollbar-button {display: none; }
+.wpjc-search-form #tick-mark {position: absolute; display: inline-block; width: 15px; height: 15px; top: 0; bottom: 0; right: 9px; margin: auto;}
+.wpjc-search-form #tick-mark::before {position: absolute; left: 0; top: 50%; height: 50%; width: 3px; background-color: #0bed0b; content: ""; transform: translateX(10px) rotate(-45deg); transform-origin: left bottom; }
+.wpjc-search-form #tick-mark::after {position: absolute; left: 0; bottom: 0; height: 3px; width: 100%; background-color: #0bed0b; content: ""; transform: translateX(10px) rotate(-45deg); transform-origin: left bottom; }
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

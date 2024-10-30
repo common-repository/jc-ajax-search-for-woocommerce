@@ -1,0 +1,151 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: JC Ajax Search for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-14 23:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0.2\n"
+"X-Domain: jc-ajax-search-for-woocommerce"
+
+#: admin/views/search-form-list.php:14
+msgid "Actions"
+msgstr ""
+
+#: frontend/controller/wcjc-public-ajax-search.php:47
+msgid "Add to cart"
+msgstr ""
+
+#: admin/views/search-form-create.php:23
+msgid "Add to Cart Label:"
+msgstr ""
+
+#: admin/views/search-form-create.php:30
+msgid "Add url to Image"
+msgstr ""
+
+#: admin/views/search-form-create.php:20
+msgid "Admin Name:"
+msgstr ""
+
+#: admin/views/search-form-create.php:39
+msgid "Advanced Search Settings"
+msgstr ""
+
+#: admin/views/search-form-list.php:7
+msgid "Create"
+msgstr ""
+
+#: admin/views/search-form-create.php:33
+msgid "Display Add to Cart"
+msgstr ""
+
+#: admin/views/search-form-create.php:28
+msgid "Display Field Configuration"
+msgstr ""
+
+#: admin/views/search-form-create.php:29
+msgid "Display Image"
+msgstr ""
+
+#: admin/views/search-form-create.php:31
+msgid "Display Price"
+msgstr ""
+
+#: admin/views/search-form-create.php:34
+msgid "Display quantity"
+msgstr ""
+
+#: admin/views/search-form-list.php:27
+msgid "Edit"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://jcwpplugins.com/author/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://jcwpplugins.com/jc-ajax-search-for-woocommerce/"
+msgstr ""
+
+#: admin/views/search-form-list.php:11
+msgid "ID"
+msgstr ""
+
+#. Name of the plugin
+msgid "JC Ajax Search for WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"JC Ajax Search for WooCommerce allows you to create search forms with "
+"different settings to search for products without refreshing the page"
+msgstr ""
+
+#. Author of the plugin
+msgid "JcwpPlugins"
+msgstr ""
+
+#: admin/views/search-form-create.php:25
+msgid "Limit Results:"
+msgstr ""
+
+#: admin/views/search-form-list.php:12
+msgid "Name"
+msgstr ""
+
+#: frontend/class-wc-ajax-search-jc-public.php:141
+msgid "No content found"
+msgstr ""
+
+#: frontend/class-wc-ajax-search-jc-public.php:154
+msgid "Not Result Found"
+msgstr ""
+
+#: admin/views/search-form-create.php:21
+msgid "Placeholder  Input Search:"
+msgstr ""
+
+#: admin/views/search-form-list.php:28
+msgid "Remove"
+msgstr ""
+
+#: admin/views/search-form-create.php:48
+msgid "Save"
+msgstr ""
+
+#: admin/views/search-form-create.php:19
+msgid "Search form configuration"
+msgstr ""
+
+#: admin/views/search-form-create.php:41
+msgid "Search in Category"
+msgstr ""
+
+#: admin/views/search-form-create.php:43
+msgid "Search in Content"
+msgstr ""
+
+#: admin/views/search-form-create.php:42
+msgid "Search in Tags"
+msgstr ""
+
+#: admin/views/search-form-create.php:40
+msgid "Search in Title"
+msgstr ""
+
+#: admin/views/search-form-list.php:6
+msgid "Searchs Forms"
+msgstr ""
+
+#: admin/views/search-form-list.php:13
+msgid "Shorcode"
+msgstr ""
